@@ -1,5 +1,4 @@
 package ataberkkilavuzcu;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -12,13 +11,12 @@ public class App
     public static void main( String[] args )
     {
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.google.com");
 
-        System.out.println(driver.getTitle());
+        SozcuHomePage sozcuHomePage = new SozcuHomePage(driver);
 
-        driver.findElement(By.className("gLFyf")).sendKeys("youtube");
-        driver.findElement(By.className("gLFyf")).sendKeys(Keys.ENTER);
-        // driver.quit();
+
+        //  driver.quit();
+        //https://www.softwaretestinghelp.com/selenium-webdriver-commands-selenium-tutorial-17/
 
 
     }
