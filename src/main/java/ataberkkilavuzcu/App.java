@@ -12,10 +12,12 @@ public class App
     {
         WebDriver driver = new ChromeDriver();
 
-        SozcuHomePage sozcuHomePage = new SozcuHomePage(driver);
+          SozcuHomePage sozcuHomePage = new SozcuHomePage(driver);
+ 
 
 
-        //  driver.quit();
+
+     //    driver.quit();
         //https://www.softwaretestinghelp.com/selenium-webdriver-commands-selenium-tutorial-17/
 
 
