@@ -1,6 +1,5 @@
 package ataberkkilavuzcu;
 
-import java.time.Duration;
 import java.util.ArrayList;
 
 import org.openqa.selenium.By;
