@@ -30,7 +30,7 @@ public class SozcuAuthorPage {
         selectMonth(monthString);
         selectYear(yearString);
         WebElement filteringButton = driver.findElement(filterButton);
-        // button is not visible so were scrolling down
+        // button is not visible so were calling javascript code.
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("arguments[0].click();", filteringButton);
         if(articleFound(dateString, monthString, yearString)){
